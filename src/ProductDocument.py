@@ -78,7 +78,10 @@ class Product:
 
     def updateProductObj(self,_id=None,name=None,price=None, stock=None,description=None,restock_level=None, category=None, sale_flag=None):
         if _id is not None:
-            self._id= _id
+            if type(_id) is not ObjectId:
+                self._id = ObjectId(_id)
+            else:
+                self._id = _id 
         if name is not None:
             self.name = name
         if price is not None:
