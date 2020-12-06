@@ -79,7 +79,10 @@ class Customer:
 
     def updateCustomerObj(self,_id=None,firstname=None,lastname=None, email=None):
         if _id is not None:
-            self._id = _id
+            if type(_id) is not ObjectId:
+                self._id = ObjectId(_id)
+            else:
+                self._id = _id 
         if firstname is not None:
             self.firstname = firstname 
         if lastname is not None:
