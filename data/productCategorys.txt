@@ -1,5 +1,0 @@
-sports
-food
-tech
-auto 
-home
