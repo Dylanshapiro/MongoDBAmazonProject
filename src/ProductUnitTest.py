@@ -27,7 +27,7 @@ if product.updateProductDocument(name="joe") is None:
 if product.getDocumentProductFromDB() is None:
     print("ERROR~~~~~~~~~updateProductDocument~~~~~~~~~~~~~~~getDocumentProductFromDB~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-product.updateProductObj(_id="Optional",name="Optional",price="Optional", stock="Optional",description="Optional",restock_level="Optional", category="Optional", sale_flag="Optional")
+product.updateProductObj(name="Optional",price="Optional", stock="Optional",description="Optional",restock_level="Optional", category="Optional", sale_flag="Optional")
 
 if product.getDocumentProductFromDB() is not None:
     print("ERROR~~~~~~~~~~~updateProductObj~~~~~~~~~~~~~getDocumentProductFromDB~~~~~~~~~~~~~~~~~~~~~~~~~")

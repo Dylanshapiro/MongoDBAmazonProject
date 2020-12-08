@@ -4,8 +4,7 @@ from pymongo import MongoClient
 class  DataBase: 
     def __init__(self,database,table):
         os.system('./startServer.sh')
-        clientInfo = readTextFileConfig()
-        client = MongoClient(clientInfo)
+        client = MongoClient('mongodb://###################')
         mydb = client[database]
         self.mycol =mydb[table]
 
