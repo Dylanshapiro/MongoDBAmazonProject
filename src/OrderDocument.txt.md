@@ -23,9 +23,9 @@ order.QueryPrintFromDatabase()
 #Create OrderDocumet in MongoDB
 order.insertDocumentIntoDB()
 #update Order Object
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=[OrderItem(product_id="exampleid",quantity=3),OrderItem(product_id="exampleid",quantity=3)])
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address="OPTIONAL", zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address="OPTIONAL", zipcode="OPTIONAL", orderItem=[OrderItem(product_id="exampleid",quantity=3),OrderItem(product_id="exampleid",quantity=3)])
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address="OPTIONAL", zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
 order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address="OPTIONAL", zipcode="OPTIONAL")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #Query w current object, update current object, and return current object updated
@@ -39,7 +39,7 @@ order.getDocumentOrderFromDB()
 #HOW TO AVOID THIS: provide unique identifiers or _id
 #this function will update the document in the database
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-order.updateOrderDocument(customer_id="Optional",purchasedate="Optional", shipdate="Optional",city="Optional",state="Optional", address="Optional", zipcode="Optional", orderItem=OrderItem(product_id="NOTOptional",quantity=Optional))
+order.updateOrderDocument(customer_id="Optional",purchasedate="Optional", shipdate="Optional",city="Optional",state="Optional", address="Optional", zipcode="Optional", orderItem=OrderItem(product_id="NOTOptional",quantity="OPTIONAL"))
 #delete_one(self.__dict__) mongodb method deletes first instance of query provide unique identifiers or _id for more accuracy
 order.removeOrderDocument()
 #remove all Order Documents based on current object query dont use _id ['delete_many(self.__dict__)'] mongodb method
