@@ -1,0 +1,61 @@
+about to fork child process, waiting until server is ready for connections.
+forked process: 43767
+ERROR: child process failed, exited with error number 48
+To see additional information in this output, start without the "--fork" option.
+{'_id': ObjectId('5fcf213bc9de3ada3dfe974b'), 'firstname': 'Noah', 'lastname': 'Campbell', 'email': '595@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe974c'), 'firstname': 'Mason', 'lastname': 'Gonzalez', 'email': '238@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe974d'), 'firstname': 'Mia', 'lastname': 'Wilson', 'email': '236@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe974e'), 'firstname': 'Noah', 'lastname': 'Nelson', 'email': '311@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe974f'), 'firstname': 'Amelia', 'lastname': 'Jackson', 'email': '680@aol.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9750'), 'firstname': 'Charlotte', 'lastname': 'Rivera', 'email': '958@earthlink.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9751'), 'firstname': 'James', 'lastname': 'Wright', 'email': '435@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9752'), 'firstname': 'Mason', 'lastname': 'Walker', 'email': '637@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9753'), 'firstname': 'Ava', 'lastname': 'Lewis', 'email': '315@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9754'), 'firstname': 'Isabella', 'lastname': 'Green', 'email': '565@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9755'), 'firstname': 'James', 'lastname': 'Ramirez', 'email': '255@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9756'), 'firstname': 'Benjamin', 'lastname': 'Green', 'email': '446@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9757'), 'firstname': 'Ava', 'lastname': 'Lee', 'email': '500@aol.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9758'), 'firstname': 'Mason', 'lastname': 'Flores', 'email': '248@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9759'), 'firstname': 'Oliver', 'lastname': 'White', 'email': '392@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975a'), 'firstname': 'Ava', 'lastname': 'Clark', 'email': '936@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975b'), 'firstname': 'Lucas', 'lastname': 'Jackson', 'email': '179@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975c'), 'firstname': '1Ethan', 'lastname': 'Clark', 'email': '977@earthlink.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975d'), 'firstname': '', 'lastname': 'Hernandez', 'email': '532@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975e'), 'firstname': 'Emma', 'lastname': 'Perez', 'email': '681@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe975f'), 'firstname': 'Evelyn]', 'lastname': 'Lopez', 'email': '437@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9760'), 'firstname': 'Mason', 'lastname': 'Adams', 'email': '704@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9761'), 'firstname': 'Harper', 'lastname': 'Hernandez', 'email': '629@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9762'), 'firstname': 'Olivia', 'lastname': 'Campbell', 'email': '781@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9763'), 'firstname': '', 'lastname': 'Campbell', 'email': '146@earthlink.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9764'), 'firstname': 'Olivia', 'lastname': 'Hernandez', 'email': '749@earthlink.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9765'), 'firstname': 'William', 'lastname': 'Carter', 'email': '636@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9766'), 'firstname': 'Lucas', 'lastname': 'Wright', 'email': '161@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9767'), 'firstname': 'Evelyn]', 'lastname': 'Hernandez', 'email': '589@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9768'), 'firstname': 'Evelyn]', 'lastname': 'Rodriguez', 'email': '475@earthlink.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9769'), 'firstname': 'Evelyn]', 'lastname': 'Moore', 'email': '313@aol.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976a'), 'firstname': 'Emma', 'lastname': 'Campbell', 'email': '195@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976b'), 'firstname': '1Ethan', 'lastname': 'Jones', 'email': '734@aol.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976c'), 'firstname': 'William', 'lastname': 'Martin', 'email': '536@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976d'), 'firstname': '', 'lastname': 'Wilson', 'email': '926@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976e'), 'firstname': 'Olivia', 'lastname': 'Thomas', 'email': '939@comcast.net'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe976f'), 'firstname': 'Mia', 'lastname': 'Thompson', 'email': '737@hotmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9770'), 'firstname': 'Sophia', 'lastname': 'Brown', 'email': '535@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9771'), 'firstname': 'Benjamin', 'lastname': 'Wilson', 'email': '235@gmail.com'}
+{'_id': ObjectId('5fcf213bc9de3ada3dfe9772'), 'firstname': 'Evelyn]', 'lastname': 'Flores', 'email': '581@earthlink.com'}
+__init__(self,_id=None, firstname=None,lastname=None, email=None)
+documentToCustomer(self,Customer)
+printObj(self)
+QueryPrintFromDatabase(self)
+updateCustomerDocument(self,firstname=None,lastname=None, email=None)
+updateCustomerObj(self,firstname=None,lastname=None, email=None)
+insertDocumentIntoDB(self)
+getDocumentCustomerFromDB(self)
+removeCustomerDocument(self)
+removeAllCustomerDocument(self)
+BeginObject:~~~~~~~~~~~~~~
+{'firstname': 'example', 'lastname': 'example', 'email': 'example@gmail.com'}
+EndObject:~~~~~~~~~~~~~~
+BeginprintFromDatabase:~~~~~~~~~~~~~~
+EndprintFromDatabase:~~~~~~~~~~~~~~
+incorrect or Not Specific enough Query object :{'firstname': 'example', 'lastname': 'example', 'email': 'example@gmail.com'}
+incorrect or Not Specific enough Query object :{'firstname': 'OPTIONAL', 'lastname': 'OPTIONAL', 'email': 'OPTIONAL', '_id': ObjectId('5fcf213bc9de3ada3dfe9773')}

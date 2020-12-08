@@ -128,6 +128,21 @@ class Product:
         print("incorrect or Not Specific enough Query object :{0}".format(self.__dict__))
         return None
 
+    def getFirstQueriedDocumentProductFromDB(self):
+        mycol = DB.mycol
+        myfields = self.__dict__
+        try:
+            mydoc = mycol.find(myfields)
+        except TypeError as te:
+            print("issue looking up : {0}, Error Thrown : {1} ".format(self.__dict__,te))
+        docs =[]
+        for doc in mydoc:
+            docs.append(doc)
+        product = docs[0]
+        self.updateProductObj(**product)
+        return self
+
+
 class ProductTable():
 
     def __init__(self):
@@ -140,14 +155,18 @@ class ProductTable():
     def dropTable(self):
         self.mycol.drop()
 
+    def getRandomProductId(self):
+        return Product().getFirstQueriedDocumentProductFromDB()._id
+        
+
     def createProductTable(self):
         names = []
-        populatetolist(names,'data/productNames.txt')
+        populatetolist(names,'productNames.txt')
 
         descriptions = ['generic description 1', 'generic description 2']
 
         categorys = []
-        populatetolist(categorys,'data/productCategorys.txt')
+        populatetolist(categorys,'productCategorys.txt')
         productList = []
         createProductList(productList,names,descriptions,categorys)
 

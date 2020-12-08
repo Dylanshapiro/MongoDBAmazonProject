@@ -13,7 +13,7 @@ table.dropTable()
 
 from ProductDocument import Product
 #Create Product Object all variables are optional
-product = Product(_id="sd2134204do234re9", name="example",price=21333.44, stock=4,description="this is my dope discription",restock_level=100, category= food, sale_flag=False)
+product = Product(_id="sd2134204do234re9", name="example",price=21333.44, stock=4,description="this is my dope discription",restock_level=100, category="food", sale_flag=False)
 #prints all functions and its paramaters 
 product.__describe__()
 #print current Product Obj

@@ -132,16 +132,27 @@ class CustomerTable():
         file1.close()
 
 
+    def createRandomCustomer(self):
+        firstnames = []
+        self.populatetolist(firstnames, "firstNames.txt")
+        lastnames = []
+        self.populatetolist(lastnames,"lastNames.txt")
+        emailproviders = []
+        self.populatetolist(emailproviders, "emailProviders.txt")
+        customer = Customer(firstname=random.choice(firstnames),lastname=random.choice(lastnames)  , email=""+str(random.randint(100,999))+"@"+random.choice(emailproviders))
+        customer.insertDocumentIntoDB()
+        return customer.getDocumentCustomerFromDB()
+
     def dropTable(self):
         self.mycol.drop()
 
     def createCustomerTable(self):
         firstnames = []
-        self.populatetolist(firstnames, "data/firstNames.txt")
+        self.populatetolist(firstnames, "firstNames.txt")
         lastnames = []
-        self.populatetolist(lastnames,"data/lastNames.txt")
+        self.populatetolist(lastnames,"lastNames.txt")
         emailproviders = []
-        self.populatetolist(emailproviders, "data/emailProviders.txt")
+        self.populatetolist(emailproviders, "emailProviders.txt")
 
         self.dropTable()
         customerList=[]

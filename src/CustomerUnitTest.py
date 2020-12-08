@@ -27,7 +27,7 @@ if customer.updateCustomerDocument(firstname="joe") is None:
 if customer.getDocumentCustomerFromDB() is None:
     print("ERROR~~~~~~~~~updateCustomerDocument~~~~~~~~~~~~~~~getDocumentCustomerFromDB~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-customer.updateCustomerObj(_id="OPTIONAL",firstname="OPTIONAL",lastname="OPTIONAL", email="OPTIONAL")
+customer.updateCustomerObj(firstname="OPTIONAL",lastname="OPTIONAL", email="OPTIONAL")
 
 if customer.getDocumentCustomerFromDB() is not None:
     print("ERROR~~~~~~~~~~~updateCustomerObj~~~~~~~~~~~~~getDocumentCustomerFromDB~~~~~~~~~~~~~~~~~~~~~~~~~")
