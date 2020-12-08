@@ -10,7 +10,7 @@ table.createOrderTable()
 table.printOrderTable()
 #drop MongoDB Table
 table.dropTable()
-
+from OrderItemDocument import OrderItem
 from OrderDocument import Order
 #Create Order Object all variables are optional
 order = Order(_id="3241d2543f3245", customer_id="243234fcidr2", _OrderItemDocument=False, purchasedate=10/22/2020, shipdate=None,city="freehold", state="NJ", address=6 drive ave, zipcode=0784834, orderItem=OrderItem(product_id="exampleid",quantity=3))
