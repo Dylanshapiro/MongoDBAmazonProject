@@ -23,10 +23,10 @@ order.QueryPrintFromDatabase()
 #Create OrderDocumet in MongoDB
 order.insertDocumentIntoDB()
 #update Order Object
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument=OPTIONAL, purchasedate=OPTIONAL, shipdate=OPTIONAL,city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode=OPTIONAL, orderItem=OrderItem(product_id="exampleid",quantity=3))
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument=OPTIONAL, purchasedate=OPTIONAL, shipdate=OPTIONAL,city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode=OPTIONAL, orderItem=[OrderItem(product_id="exampleid",quantity=3),OrderItem(product_id="exampleid",quantity=3)])
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument=OPTIONAL, purchasedate=OPTIONAL, shipdate=OPTIONAL,city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode=OPTIONAL, orderItem=OrderItem(product_id="exampleid",quantity=3))
-order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument=OPTIONAL, purchasedate=OPTIONAL, shipdate=OPTIONAL,city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode=OPTIONAL)
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=[OrderItem(product_id="exampleid",quantity=3),OrderItem(product_id="exampleid",quantity=3)])
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address=OPTIONAL, zipcode="OPTIONAL", orderItem=OrderItem(product_id="exampleid",quantity=3))
+order.updateOrderObj(_id="OPTIONAL", customer_id="OPTIONAL", _OrderItemDocument="OPTIONAL", purchasedate="OPTIONAL", shipdate="OPTIONAL",city="OPTIONAL", state="OPTIONAL", address="OPTIONAL", zipcode="OPTIONAL")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #Query w current object, update current object, and return current object updated
 #CAUTION: if Query returns multiple Documents it doesnt update current object it just returns null
