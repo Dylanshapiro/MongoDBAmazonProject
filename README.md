@@ -37,7 +37,7 @@ mycol.find({'category': 'food'})
 
 ### Query Products Whose Inventory Has Fallen Below the Minimum Stock Level
 ```python
-mycol.find({ $where: “this.stock < this.restock_level” } )
+mycol.find({ "$where": 'this.stock < this.restock_level' } )
 ```
 ## Python Data Access Objects
 ### Customer Document
