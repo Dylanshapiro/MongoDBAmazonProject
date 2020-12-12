@@ -2,9 +2,9 @@
 
 ## MongoDB Statements
 ### Install pymongo 
-'''shell
+```bash
 pip install pymongo
-'''
+```
 ### Connect to the Mongo Client
 ```python
 from pymongo import MongoClient
