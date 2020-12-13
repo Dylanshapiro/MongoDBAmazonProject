@@ -44,11 +44,21 @@ mycol.find({'category': 'food'})
 ```python
 
 ```
-
 ### Query Products Whose Inventory Has Fallen Below the Minimum Stock Level
 ```python
 mycol.find({ "$where": 'this.stock < this.restock_level' } )
 ```
+### Query, Add, Remove, and Modify Order Information
+```python
+mycol.find({'customer_id': ObjectId('5fd568e18f232403dfc2f127'), 'purchasedate': '2020-12-12T20:05:37.315430', 'city': 'freehold', 'state': 'FL', 'address': '94 cuba way', 'zipcode': 82, 'orderItems': [{'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 18}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf7'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edd04'), 'quantity': 10}, {'product_id': ObjectId('5fd568d9b25a47377d8edcfe'), 'quantity': 7}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 15}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 13}]})
+
+mycol.insert_one({'customer_id': ObjectId('5fd568e18f232403dfc2f127'), 'purchasedate': '2020-12-12T20:05:37.315430', 'city': 'freehold', 'state': 'FL', 'address': '94 cuba way', 'zipcode': 82, 'orderItems': [{'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 18}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf7'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edd04'), 'quantity': 10}, {'product_id': ObjectId('5fd568d9b25a47377d8edcfe'), 'quantity': 7}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 15}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 13}]})
+
+mycol.delete_one({'customer_id': ObjectId('5fd568e18f232403dfc2f127'), 'purchasedate': '2020-12-12T20:05:37.315430', 'city': 'freehold', 'state': 'FL', 'address': '94 cuba way', 'zipcode': 82, 'orderItems': [{'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 18}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf7'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edd04'), 'quantity': 10}, {'product_id': ObjectId('5fd568d9b25a47377d8edcfe'), 'quantity': 7}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 15}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 13}]})
+
+mycol.find_one_and_update({'customer_id': ObjectId('5fd568e18f232403dfc2f127'), 'purchasedate': '2020-12-12T20:05:37.315430', 'city': 'freehold', 'state': 'NJ', 'address': '94 cuba way', 'zipcode': 82, 'orderItems': [{'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 18}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf7'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edd04'), 'quantity': 10}, {'product_id': ObjectId('5fd568d9b25a47377d8edcfe'), 'quantity': 7}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 8}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 15}, {'product_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'quantity': 19}, {'product_id': ObjectId('5fd568d9b25a47377d8edcff'), 'quantity': 13}]})
+```
+
 ## Python Data Access Objects
 ### Customer Document
 [CusomerDocumentReadMe](https://github.com/Dylanshapiro/MongoDBAmazonProject/blob/master/src/CustomerDocument.txt.md)                                                             
