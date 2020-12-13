@@ -1,86 +1,86 @@
 about to fork child process, waiting until server is ready for connections.
-forked process: 8087
+forked process: 13369
 To see additional information in this output, start without the "--fork" option.
-{'firstname': 'Charlotte', 'lastname': 'Torres', 'email': '926@gmail.com'}
-{'firstname': 'Evelyn]', 'lastname': 'Nelson', 'email': '724@aol.com'}
-{'firstname': 'Liam', 'lastname': 'Scott', 'email': '534@earthlink.com'}
-{'firstname': 'Mia', 'lastname': 'Smith', 'email': '606@earthlink.com'}
-{'firstname': 'Oliver', 'lastname': 'Hernandez', 'email': '694@gmail.com'}
-{'firstname': 'James', 'lastname': 'Hernandez', 'email': '130@hotmail.com'}
-{'firstname': 'Sophia', 'lastname': 'Smith', 'email': '999@comcast.net'}
-{'firstname': 'Amelia', 'lastname': 'Wright', 'email': '532@gmail.com'}
-{'firstname': 'Evelyn]', 'lastname': 'Carter', 'email': '599@aol.com'}
-{'firstname': 'Isabella', 'lastname': 'Lewis', 'email': '837@comcast.net'}
-{'firstname': 'Elijah', 'lastname': 'Mitchell', 'email': '663@earthlink.com'}
-{'firstname': 'Evelyn]', 'lastname': 'Smith', 'email': '927@earthlink.com'}
-{'firstname': '', 'lastname': 'Martin', 'email': '417@hotmail.com'}
-{'firstname': 'Ava', 'lastname': 'Nelson', 'email': '170@earthlink.com'}
-{'firstname': '1Ethan', 'lastname': 'Thomas', 'email': '196@hotmail.com'}
-{'firstname': 'Mason', 'lastname': 'Baker', 'email': '900@hotmail.com'}
-{'firstname': 'Olivia', 'lastname': 'Thompson', 'email': '373@comcast.net'}
-{'firstname': 'Harper', 'lastname': 'Ramirez', 'email': '407@comcast.net'}
-{'firstname': 'Ava', 'lastname': 'Hall', 'email': '589@comcast.net'}
-{'firstname': 'Noah', 'lastname': 'Jones', 'email': '685@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41a'), 'firstname': 'Charlotte', 'lastname': 'Torres', 'email': '926@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41b'), 'firstname': 'Evelyn]', 'lastname': 'Nelson', 'email': '724@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41c'), 'firstname': 'Liam', 'lastname': 'Scott', 'email': '534@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41d'), 'firstname': 'Mia', 'lastname': 'Smith', 'email': '606@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41e'), 'firstname': 'Oliver', 'lastname': 'Hernandez', 'email': '694@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca41f'), 'firstname': 'James', 'lastname': 'Hernandez', 'email': '130@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca420'), 'firstname': 'Sophia', 'lastname': 'Smith', 'email': '999@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca421'), 'firstname': 'Amelia', 'lastname': 'Wright', 'email': '532@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca422'), 'firstname': 'Evelyn]', 'lastname': 'Carter', 'email': '599@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca423'), 'firstname': 'Isabella', 'lastname': 'Lewis', 'email': '837@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca424'), 'firstname': 'Elijah', 'lastname': 'Mitchell', 'email': '663@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca425'), 'firstname': 'Evelyn]', 'lastname': 'Smith', 'email': '927@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca426'), 'firstname': '', 'lastname': 'Martin', 'email': '417@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca427'), 'firstname': 'Ava', 'lastname': 'Nelson', 'email': '170@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca428'), 'firstname': '1Ethan', 'lastname': 'Thomas', 'email': '196@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca429'), 'firstname': 'Mason', 'lastname': 'Baker', 'email': '900@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42a'), 'firstname': 'Olivia', 'lastname': 'Thompson', 'email': '373@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42b'), 'firstname': 'Harper', 'lastname': 'Ramirez', 'email': '407@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42c'), 'firstname': 'Ava', 'lastname': 'Hall', 'email': '589@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42d'), 'firstname': 'Noah', 'lastname': 'Jones', 'email': '685@comcast.net'}
-{'firstname': 'Isabella', 'lastname': 'Adams', 'email': '140@aol.com'}
-{'firstname': 'Harper', 'lastname': 'Rivera', 'email': '676@earthlink.com'}
-{'firstname': '', 'lastname': 'Smith', 'email': '616@comcast.net'}
-{'firstname': '1Ethan', 'lastname': 'Adams', 'email': '478@aol.com'}
-{'firstname': 'Isabella', 'lastname': 'Thomas', 'email': '915@hotmail.com'}
-{'firstname': 'Olivia', 'lastname': 'Williams', 'email': '249@comcast.net'}
-{'firstname': 'Olivia', 'lastname': 'Rodriguez', 'email': '542@comcast.net'}
-{'firstname': 'Noah', 'lastname': 'Lopez', 'email': '747@gmail.com'}
-{'firstname': 'Noah', 'lastname': 'Campbell', 'email': '440@hotmail.com'}
-{'firstname': 'Mia', 'lastname': 'Ramirez', 'email': '928@aol.com'}
-{'firstname': 'Olivia', 'lastname': 'Jones', 'email': '419@earthlink.com'}
-{'firstname': 'Mia', 'lastname': 'Lee', 'email': '554@hotmail.com'}
-{'firstname': 'Charlotte', 'lastname': 'Anderson', 'email': '179@hotmail.com'}
-{'firstname': 'Mason', 'lastname': 'Ramirez', 'email': '717@hotmail.com'}
-{'firstname': 'Benjamin', 'lastname': 'Scott', 'email': '591@gmail.com'}
-{'firstname': 'Isabella', 'lastname': 'Mitchell', 'email': '444@aol.com'}
-{'firstname': 'Charlotte', 'lastname': 'Rodriguez', 'email': '899@comcast.net'}
-{'firstname': 'Charlotte', 'lastname': 'Torres', 'email': '656@gmail.com'}
-{'firstname': 'Oliver', 'lastname': 'Wright', 'email': '670@comcast.net'}
-{'firstname': 'Sophia', 'lastname': 'Robinson', 'email': '127@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42e'), 'firstname': 'Isabella', 'lastname': 'Adams', 'email': '140@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca42f'), 'firstname': 'Harper', 'lastname': 'Rivera', 'email': '676@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca430'), 'firstname': '', 'lastname': 'Smith', 'email': '616@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca431'), 'firstname': '1Ethan', 'lastname': 'Adams', 'email': '478@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca432'), 'firstname': 'Isabella', 'lastname': 'Thomas', 'email': '915@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca433'), 'firstname': 'Olivia', 'lastname': 'Williams', 'email': '249@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca434'), 'firstname': 'Olivia', 'lastname': 'Rodriguez', 'email': '542@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca435'), 'firstname': 'Noah', 'lastname': 'Lopez', 'email': '747@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca436'), 'firstname': 'Noah', 'lastname': 'Campbell', 'email': '440@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca437'), 'firstname': 'Mia', 'lastname': 'Ramirez', 'email': '928@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca438'), 'firstname': 'Olivia', 'lastname': 'Jones', 'email': '419@earthlink.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca439'), 'firstname': 'Mia', 'lastname': 'Lee', 'email': '554@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43a'), 'firstname': 'Charlotte', 'lastname': 'Anderson', 'email': '179@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43b'), 'firstname': 'Mason', 'lastname': 'Ramirez', 'email': '717@hotmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43c'), 'firstname': 'Benjamin', 'lastname': 'Scott', 'email': '591@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43d'), 'firstname': 'Isabella', 'lastname': 'Mitchell', 'email': '444@aol.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43e'), 'firstname': 'Charlotte', 'lastname': 'Rodriguez', 'email': '899@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca43f'), 'firstname': 'Charlotte', 'lastname': 'Torres', 'email': '656@gmail.com'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca440'), 'firstname': 'Oliver', 'lastname': 'Wright', 'email': '670@comcast.net'}
-{'_id': ObjectId('5fd54ea23685c3a4d50ca441'), 'firstname': 'Sophia', 'lastname': 'Robinson', 'email': '127@hotmail.com'}
+{'firstname': 'Liam', 'lastname': 'Williams', 'email': '428@aol.com'}
+{'firstname': '1Ethan', 'lastname': 'Hernandez', 'email': '159@earthlink.com'}
+{'firstname': 'Elijah', 'lastname': 'Martin', 'email': '344@hotmail.com'}
+{'firstname': 'Mason', 'lastname': 'Hernandez', 'email': '746@comcast.net'}
+{'firstname': 'Sophia', 'lastname': 'Perez', 'email': '354@earthlink.com'}
+{'firstname': 'Olivia', 'lastname': 'Adams', 'email': '583@gmail.com'}
+{'firstname': 'James', 'lastname': 'Smith', 'email': '818@earthlink.com'}
+{'firstname': '1Ethan', 'lastname': 'Moore', 'email': '159@gmail.com'}
+{'firstname': 'Elijah', 'lastname': 'Jones', 'email': '672@gmail.com'}
+{'firstname': 'Lucas', 'lastname': 'Davis', 'email': '426@earthlink.com'}
+{'firstname': 'Isabella', 'lastname': 'Jones', 'email': '198@aol.com'}
+{'firstname': 'Olivia', 'lastname': 'Lee', 'email': '450@aol.com'}
+{'firstname': 'Mia', 'lastname': 'Hernandez', 'email': '706@aol.com'}
+{'firstname': 'Olivia', 'lastname': 'Walker', 'email': '176@gmail.com'}
+{'firstname': '', 'lastname': 'Baker', 'email': '284@hotmail.com'}
+{'firstname': 'Evelyn]', 'lastname': 'Clark', 'email': '818@hotmail.com'}
+{'firstname': 'James', 'lastname': 'Moore', 'email': '863@aol.com'}
+{'firstname': 'Benjamin', 'lastname': 'Young', 'email': '449@gmail.com'}
+{'firstname': 'Mia', 'lastname': 'Ramirez', 'email': '474@hotmail.com'}
+{'firstname': 'Mason', 'lastname': 'Walker', 'email': '134@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f629'), 'firstname': 'Liam', 'lastname': 'Williams', 'email': '428@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62a'), 'firstname': '1Ethan', 'lastname': 'Hernandez', 'email': '159@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62b'), 'firstname': 'Elijah', 'lastname': 'Martin', 'email': '344@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62c'), 'firstname': 'Mason', 'lastname': 'Hernandez', 'email': '746@comcast.net'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62d'), 'firstname': 'Sophia', 'lastname': 'Perez', 'email': '354@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62e'), 'firstname': 'Olivia', 'lastname': 'Adams', 'email': '583@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f62f'), 'firstname': 'James', 'lastname': 'Smith', 'email': '818@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f630'), 'firstname': '1Ethan', 'lastname': 'Moore', 'email': '159@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f631'), 'firstname': 'Elijah', 'lastname': 'Jones', 'email': '672@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f632'), 'firstname': 'Lucas', 'lastname': 'Davis', 'email': '426@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f633'), 'firstname': 'Isabella', 'lastname': 'Jones', 'email': '198@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f634'), 'firstname': 'Olivia', 'lastname': 'Lee', 'email': '450@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f635'), 'firstname': 'Mia', 'lastname': 'Hernandez', 'email': '706@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f636'), 'firstname': 'Olivia', 'lastname': 'Walker', 'email': '176@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f637'), 'firstname': '', 'lastname': 'Baker', 'email': '284@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f638'), 'firstname': 'Evelyn]', 'lastname': 'Clark', 'email': '818@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f639'), 'firstname': 'James', 'lastname': 'Moore', 'email': '863@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63a'), 'firstname': 'Benjamin', 'lastname': 'Young', 'email': '449@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63b'), 'firstname': 'Mia', 'lastname': 'Ramirez', 'email': '474@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63c'), 'firstname': 'Mason', 'lastname': 'Walker', 'email': '134@earthlink.com'}
+{'firstname': 'Mason', 'lastname': 'Williams', 'email': '918@comcast.net'}
+{'firstname': 'Mason', 'lastname': 'Hernandez', 'email': '451@hotmail.com'}
+{'firstname': '', 'lastname': 'Thompson', 'email': '567@gmail.com'}
+{'firstname': 'Elijah', 'lastname': 'Brown', 'email': '817@comcast.net'}
+{'firstname': 'Olivia', 'lastname': 'Martin', 'email': '239@aol.com'}
+{'firstname': 'Amelia', 'lastname': 'Wright', 'email': '573@earthlink.com'}
+{'firstname': 'Olivia', 'lastname': 'Taylor', 'email': '292@hotmail.com'}
+{'firstname': 'Liam', 'lastname': 'Harris', 'email': '814@hotmail.com'}
+{'firstname': 'Isabella', 'lastname': 'Roberts', 'email': '219@gmail.com'}
+{'firstname': 'Mason', 'lastname': 'Young', 'email': '760@comcast.net'}
+{'firstname': 'Harper', 'lastname': 'Martin', 'email': '695@hotmail.com'}
+{'firstname': 'William', 'lastname': 'Torres', 'email': '465@gmail.com'}
+{'firstname': 'Lucas', 'lastname': 'Ramirez', 'email': '976@hotmail.com'}
+{'firstname': '1Ethan', 'lastname': 'Rodriguez', 'email': '979@earthlink.com'}
+{'firstname': 'Oliver', 'lastname': 'Davis', 'email': '400@earthlink.com'}
+{'firstname': 'Ava', 'lastname': 'Jones', 'email': '224@earthlink.com'}
+{'firstname': 'Amelia', 'lastname': 'Jones', 'email': '615@hotmail.com'}
+{'firstname': 'Isabella', 'lastname': 'Perez', 'email': '352@aol.com'}
+{'firstname': 'Charlotte', 'lastname': 'Walker', 'email': '589@gmail.com'}
+{'firstname': 'Emma', 'lastname': 'Hill', 'email': '857@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63d'), 'firstname': 'Mason', 'lastname': 'Williams', 'email': '918@comcast.net'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63e'), 'firstname': 'Mason', 'lastname': 'Hernandez', 'email': '451@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f63f'), 'firstname': '', 'lastname': 'Thompson', 'email': '567@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f640'), 'firstname': 'Elijah', 'lastname': 'Brown', 'email': '817@comcast.net'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f641'), 'firstname': 'Olivia', 'lastname': 'Martin', 'email': '239@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f642'), 'firstname': 'Amelia', 'lastname': 'Wright', 'email': '573@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f643'), 'firstname': 'Olivia', 'lastname': 'Taylor', 'email': '292@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f644'), 'firstname': 'Liam', 'lastname': 'Harris', 'email': '814@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f645'), 'firstname': 'Isabella', 'lastname': 'Roberts', 'email': '219@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f646'), 'firstname': 'Mason', 'lastname': 'Young', 'email': '760@comcast.net'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f647'), 'firstname': 'Harper', 'lastname': 'Martin', 'email': '695@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f648'), 'firstname': 'William', 'lastname': 'Torres', 'email': '465@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f649'), 'firstname': 'Lucas', 'lastname': 'Ramirez', 'email': '976@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64a'), 'firstname': '1Ethan', 'lastname': 'Rodriguez', 'email': '979@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64b'), 'firstname': 'Oliver', 'lastname': 'Davis', 'email': '400@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64c'), 'firstname': 'Ava', 'lastname': 'Jones', 'email': '224@earthlink.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64d'), 'firstname': 'Amelia', 'lastname': 'Jones', 'email': '615@hotmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64e'), 'firstname': 'Isabella', 'lastname': 'Perez', 'email': '352@aol.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f64f'), 'firstname': 'Charlotte', 'lastname': 'Walker', 'email': '589@gmail.com'}
+{'_id': ObjectId('5fd568db2f10ac01d8d0f650'), 'firstname': 'Emma', 'lastname': 'Hill', 'email': '857@hotmail.com'}
 __init__(self,_id=None, firstname=None,lastname=None, email=None)
 documentToCustomer(self,Customer)
 printObj(self)
@@ -98,4 +98,4 @@ BeginprintFromDatabase:~~~~~~~~~~~~~~
 EndprintFromDatabase:~~~~~~~~~~~~~~
 incorrect or Not Specific enough Query object :{'firstname': 'example', 'lastname': 'example', 'email': 'example@gmail.com'}
 {'firstname': 'example', 'lastname': 'example', 'email': 'example@gmail.com'}
-incorrect or Not Specific enough Query object :{'firstname': 'OPTIONAL', 'lastname': 'OPTIONAL', 'email': 'OPTIONAL', '_id': ObjectId('5fd54ea23685c3a4d50ca442')}
+incorrect or Not Specific enough Query object :{'firstname': 'OPTIONAL', 'lastname': 'OPTIONAL', 'email': 'OPTIONAL', '_id': ObjectId('5fd568db2f10ac01d8d0f651')}

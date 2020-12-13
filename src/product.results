@@ -1,42 +1,78 @@
 about to fork child process, waiting until server is ready for connections.
-forked process: 8027
+forked process: 13301
 To see additional information in this output, start without the "--fork" option.
-{'_id': ObjectId('5fd54ea01310b53f5ec60180'), 'name': 'paper', 'price': 591.87, 'stock': 42, 'description': 'generic description 1', 'restock_level': 3, 'category': 'food', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60181'), 'name': 'pen', 'price': 569.01, 'stock': 895, 'description': 'generic description 2', 'restock_level': 2, 'category': 'auto', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60182'), 'name': 'flowers', 'price': 991.02, 'stock': 270, 'description': 'generic description 1', 'restock_level': 3, 'category': 'food', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60183'), 'name': 'legos', 'price': 757.17, 'stock': 964, 'description': 'generic description 1', 'restock_level': 0, 'category': 'food', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60184'), 'name': 'car', 'price': 827.27, 'stock': 901, 'description': 'generic description 1', 'restock_level': 7, 'category': 'auto', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60185'), 'name': 'train', 'price': 809.75, 'stock': 188, 'description': 'generic description 1', 'restock_level': 6, 'category': 'home', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60186'), 'name': 'dog', 'price': 77.55, 'stock': 489, 'description': 'generic description 2', 'restock_level': 1, 'category': 'food', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60187'), 'name': 'cat', 'price': 316.04, 'stock': 451, 'description': 'generic description 1', 'restock_level': 0, 'category': 'sports', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60188'), 'name': 'uno', 'price': 38.97, 'stock': 508, 'description': 'generic description 2', 'restock_level': 7, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60189'), 'name': 'monopoly', 'price': 903.64, 'stock': 553, 'description': 'generic description 2', 'restock_level': 2, 'category': 'auto', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018a'), 'name': 'keyboard', 'price': 947.62, 'stock': 275, 'description': 'generic description 2', 'restock_level': 5, 'category': 'home', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018b'), 'name': 'mouse', 'price': 596.82, 'stock': 524, 'description': 'generic description 1', 'restock_level': 6, 'category': 'auto', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018c'), 'name': 'laptop', 'price': 300.73, 'stock': 923, 'description': 'generic description 2', 'restock_level': 5, 'category': 'food', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018d'), 'name': 'ipad', 'price': 956.3, 'stock': 280, 'description': 'generic description 2', 'restock_level': 3, 'category': 'sports', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018e'), 'name': 'iphone', 'price': 971.3, 'stock': 205, 'description': 'generic description 2', 'restock_level': 10, 'category': 'sports', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6018f'), 'name': 'android', 'price': 935.62, 'stock': 298, 'description': 'generic description 2', 'restock_level': 1, 'category': 'tech', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60190'), 'name': 'monitor', 'price': 589.07, 'stock': 358, 'description': 'generic description 1', 'restock_level': 0, 'category': 'sports', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60191'), 'name': '1080ti', 'price': 863.75, 'stock': 22, 'description': 'generic description 2', 'restock_level': 4, 'category': 'tech', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60192'), 'name': 'paper', 'price': 618.54, 'stock': 244, 'description': 'generic description 1', 'restock_level': 2, 'category': 'sports', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60193'), 'name': 'pen', 'price': 639.24, 'stock': 563, 'description': 'generic description 1', 'restock_level': 10, 'category': 'food', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60194'), 'name': 'flowers', 'price': 350.92, 'stock': 86, 'description': 'generic description 2', 'restock_level': 0, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60195'), 'name': 'legos', 'price': 529.12, 'stock': 289, 'description': 'generic description 1', 'restock_level': 2, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60196'), 'name': 'car', 'price': 551.98, 'stock': 550, 'description': 'generic description 2', 'restock_level': 3, 'category': 'home', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec60197'), 'name': 'train', 'price': 609.98, 'stock': 695, 'description': 'generic description 2', 'restock_level': 7, 'category': 'food', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60198'), 'name': 'dog', 'price': 248.1, 'stock': 200, 'description': 'generic description 2', 'restock_level': 4, 'category': 'auto', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec60199'), 'name': 'cat', 'price': 255.48, 'stock': 561, 'description': 'generic description 1', 'restock_level': 7, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019a'), 'name': 'uno', 'price': 301.42, 'stock': 155, 'description': 'generic description 1', 'restock_level': 8, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019b'), 'name': 'monopoly', 'price': 977.99, 'stock': 832, 'description': 'generic description 1', 'restock_level': 0, 'category': 'sports', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019c'), 'name': 'keyboard', 'price': 359.95, 'stock': 749, 'description': 'generic description 1', 'restock_level': 5, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019d'), 'name': 'mouse', 'price': 803.78, 'stock': 304, 'description': 'generic description 2', 'restock_level': 3, 'category': 'sports', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019e'), 'name': 'laptop', 'price': 606.87, 'stock': 777, 'description': 'generic description 1', 'restock_level': 0, 'category': 'auto', 'sale_flag': True}
-{'_id': ObjectId('5fd54ea01310b53f5ec6019f'), 'name': 'ipad', 'price': 724.08, 'stock': 29, 'description': 'generic description 2', 'restock_level': 1, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec601a0'), 'name': 'iphone', 'price': 458.91, 'stock': 582, 'description': 'generic description 2', 'restock_level': 8, 'category': 'auto', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec601a1'), 'name': 'android', 'price': 710.71, 'stock': 218, 'description': 'generic description 2', 'restock_level': 7, 'category': 'tech', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec601a2'), 'name': 'monitor', 'price': 761.64, 'stock': 940, 'description': 'generic description 1', 'restock_level': 3, 'category': 'food', 'sale_flag': False}
-{'_id': ObjectId('5fd54ea01310b53f5ec601a3'), 'name': '1080ti', 'price': 816.02, 'stock': 387, 'description': 'generic description 2', 'restock_level': 6, 'category': 'food', 'sale_flag': True}
+{'name': 'paper', 'price': 736.5, 'stock': 754, 'description': 'generic description 1', 'restock_level': 1, 'category': 'auto', 'sale_flag': False}
+{'name': 'pen', 'price': 501.33, 'stock': 32, 'description': 'generic description 1', 'restock_level': 2, 'category': 'food', 'sale_flag': True}
+{'name': 'flowers', 'price': 369.43, 'stock': 30, 'description': 'generic description 2', 'restock_level': 0, 'category': 'food', 'sale_flag': False}
+{'name': 'legos', 'price': 913.87, 'stock': 235, 'description': 'generic description 2', 'restock_level': 2, 'category': 'food', 'sale_flag': False}
+{'name': 'car', 'price': 949.21, 'stock': 450, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'name': 'train', 'price': 81.35, 'stock': 325, 'description': 'generic description 1', 'restock_level': 9, 'category': 'sports', 'sale_flag': False}
+{'name': 'dog', 'price': 559.54, 'stock': 116, 'description': 'generic description 1', 'restock_level': 0, 'category': 'food', 'sale_flag': False}
+{'name': 'cat', 'price': 175.07, 'stock': 320, 'description': 'generic description 2', 'restock_level': 8, 'category': 'tech', 'sale_flag': False}
+{'name': 'uno', 'price': 263.08, 'stock': 630, 'description': 'generic description 1', 'restock_level': 4, 'category': 'sports', 'sale_flag': False}
+{'name': 'monopoly', 'price': 901.98, 'stock': 935, 'description': 'generic description 2', 'restock_level': 8, 'category': 'home', 'sale_flag': False}
+{'name': 'keyboard', 'price': 939.6, 'stock': 82, 'description': 'generic description 1', 'restock_level': 1, 'category': 'auto', 'sale_flag': False}
+{'name': 'mouse', 'price': 353.91, 'stock': 163, 'description': 'generic description 1', 'restock_level': 4, 'category': 'auto', 'sale_flag': True}
+{'name': 'laptop', 'price': 445.72, 'stock': 229, 'description': 'generic description 2', 'restock_level': 10, 'category': 'auto', 'sale_flag': True}
+{'name': 'ipad', 'price': 40.1, 'stock': 36, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'name': 'iphone', 'price': 976.94, 'stock': 596, 'description': 'generic description 1', 'restock_level': 3, 'category': 'tech', 'sale_flag': True}
+{'name': 'android', 'price': 914.79, 'stock': 464, 'description': 'generic description 1', 'restock_level': 8, 'category': 'food', 'sale_flag': True}
+{'name': 'monitor', 'price': 366.7, 'stock': 589, 'description': 'generic description 2', 'restock_level': 4, 'category': 'auto', 'sale_flag': True}
+{'name': '1080ti', 'price': 534.7, 'stock': 112, 'description': 'generic description 2', 'restock_level': 10, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edce4'), 'name': 'paper', 'price': 736.5, 'stock': 754, 'description': 'generic description 1', 'restock_level': 1, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edce5'), 'name': 'pen', 'price': 501.33, 'stock': 32, 'description': 'generic description 1', 'restock_level': 2, 'category': 'food', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edce6'), 'name': 'flowers', 'price': 369.43, 'stock': 30, 'description': 'generic description 2', 'restock_level': 0, 'category': 'food', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edce7'), 'name': 'legos', 'price': 913.87, 'stock': 235, 'description': 'generic description 2', 'restock_level': 2, 'category': 'food', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edce8'), 'name': 'car', 'price': 949.21, 'stock': 450, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edce9'), 'name': 'train', 'price': 81.35, 'stock': 325, 'description': 'generic description 1', 'restock_level': 9, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcea'), 'name': 'dog', 'price': 559.54, 'stock': 116, 'description': 'generic description 1', 'restock_level': 0, 'category': 'food', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edceb'), 'name': 'cat', 'price': 175.07, 'stock': 320, 'description': 'generic description 2', 'restock_level': 8, 'category': 'tech', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcec'), 'name': 'uno', 'price': 263.08, 'stock': 630, 'description': 'generic description 1', 'restock_level': 4, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edced'), 'name': 'monopoly', 'price': 901.98, 'stock': 935, 'description': 'generic description 2', 'restock_level': 8, 'category': 'home', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcee'), 'name': 'keyboard', 'price': 939.6, 'stock': 82, 'description': 'generic description 1', 'restock_level': 1, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcef'), 'name': 'mouse', 'price': 353.91, 'stock': 163, 'description': 'generic description 1', 'restock_level': 4, 'category': 'auto', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf0'), 'name': 'laptop', 'price': 445.72, 'stock': 229, 'description': 'generic description 2', 'restock_level': 10, 'category': 'auto', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf1'), 'name': 'ipad', 'price': 40.1, 'stock': 36, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf2'), 'name': 'iphone', 'price': 976.94, 'stock': 596, 'description': 'generic description 1', 'restock_level': 3, 'category': 'tech', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf3'), 'name': 'android', 'price': 914.79, 'stock': 464, 'description': 'generic description 1', 'restock_level': 8, 'category': 'food', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf4'), 'name': 'monitor', 'price': 366.7, 'stock': 589, 'description': 'generic description 2', 'restock_level': 4, 'category': 'auto', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf5'), 'name': '1080ti', 'price': 534.7, 'stock': 112, 'description': 'generic description 2', 'restock_level': 10, 'category': 'sports', 'sale_flag': False}
+{'name': 'paper', 'price': 560.75, 'stock': 748, 'description': 'generic description 2', 'restock_level': 9, 'category': 'home', 'sale_flag': True}
+{'name': 'pen', 'price': 490.1, 'stock': 721, 'description': 'generic description 2', 'restock_level': 1, 'category': 'sports', 'sale_flag': True}
+{'name': 'flowers', 'price': 426.45, 'stock': 870, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'name': 'legos', 'price': 929.66, 'stock': 357, 'description': 'generic description 2', 'restock_level': 10, 'category': 'sports', 'sale_flag': True}
+{'name': 'car', 'price': 677.17, 'stock': 574, 'description': 'generic description 2', 'restock_level': 2, 'category': 'sports', 'sale_flag': False}
+{'name': 'train', 'price': 619.26, 'stock': 396, 'description': 'generic description 2', 'restock_level': 4, 'category': 'auto', 'sale_flag': False}
+{'name': 'dog', 'price': 987.29, 'stock': 664, 'description': 'generic description 2', 'restock_level': 7, 'category': 'auto', 'sale_flag': False}
+{'name': 'cat', 'price': 152.04, 'stock': 218, 'description': 'generic description 1', 'restock_level': 0, 'category': 'food', 'sale_flag': True}
+{'name': 'uno', 'price': 448.79, 'stock': 493, 'description': 'generic description 1', 'restock_level': 9, 'category': 'auto', 'sale_flag': True}
+{'name': 'monopoly', 'price': 307.48, 'stock': 993, 'description': 'generic description 2', 'restock_level': 1, 'category': 'home', 'sale_flag': False}
+{'name': 'keyboard', 'price': 343.78, 'stock': 165, 'description': 'generic description 1', 'restock_level': 3, 'category': 'tech', 'sale_flag': True}
+{'name': 'mouse', 'price': 524.5, 'stock': 538, 'description': 'generic description 1', 'restock_level': 3, 'category': 'sports', 'sale_flag': False}
+{'name': 'laptop', 'price': 508.43, 'stock': 670, 'description': 'generic description 1', 'restock_level': 7, 'category': 'auto', 'sale_flag': False}
+{'name': 'ipad', 'price': 736.87, 'stock': 450, 'description': 'generic description 1', 'restock_level': 1, 'category': 'food', 'sale_flag': False}
+{'name': 'iphone', 'price': 19.9, 'stock': 179, 'description': 'generic description 2', 'restock_level': 9, 'category': 'home', 'sale_flag': False}
+{'name': 'android', 'price': 931.29, 'stock': 989, 'description': 'generic description 1', 'restock_level': 4, 'category': 'sports', 'sale_flag': False}
+{'name': 'monitor', 'price': 42.82, 'stock': 8, 'description': 'generic description 2', 'restock_level': 8, 'category': 'auto', 'sale_flag': False}
+{'name': '1080ti', 'price': 987.6, 'stock': 249, 'description': 'generic description 2', 'restock_level': 5, 'category': 'tech', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf6'), 'name': 'paper', 'price': 560.75, 'stock': 748, 'description': 'generic description 2', 'restock_level': 9, 'category': 'home', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf7'), 'name': 'pen', 'price': 490.1, 'stock': 721, 'description': 'generic description 2', 'restock_level': 1, 'category': 'sports', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf8'), 'name': 'flowers', 'price': 426.45, 'stock': 870, 'description': 'generic description 1', 'restock_level': 8, 'category': 'home', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcf9'), 'name': 'legos', 'price': 929.66, 'stock': 357, 'description': 'generic description 2', 'restock_level': 10, 'category': 'sports', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcfa'), 'name': 'car', 'price': 677.17, 'stock': 574, 'description': 'generic description 2', 'restock_level': 2, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcfb'), 'name': 'train', 'price': 619.26, 'stock': 396, 'description': 'generic description 2', 'restock_level': 4, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcfc'), 'name': 'dog', 'price': 987.29, 'stock': 664, 'description': 'generic description 2', 'restock_level': 7, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edcfd'), 'name': 'cat', 'price': 152.04, 'stock': 218, 'description': 'generic description 1', 'restock_level': 0, 'category': 'food', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcfe'), 'name': 'uno', 'price': 448.79, 'stock': 493, 'description': 'generic description 1', 'restock_level': 9, 'category': 'auto', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edcff'), 'name': 'monopoly', 'price': 307.48, 'stock': 993, 'description': 'generic description 2', 'restock_level': 1, 'category': 'home', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd00'), 'name': 'keyboard', 'price': 343.78, 'stock': 165, 'description': 'generic description 1', 'restock_level': 3, 'category': 'tech', 'sale_flag': True}
+{'_id': ObjectId('5fd568d9b25a47377d8edd01'), 'name': 'mouse', 'price': 524.5, 'stock': 538, 'description': 'generic description 1', 'restock_level': 3, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd02'), 'name': 'laptop', 'price': 508.43, 'stock': 670, 'description': 'generic description 1', 'restock_level': 7, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd03'), 'name': 'ipad', 'price': 736.87, 'stock': 450, 'description': 'generic description 1', 'restock_level': 1, 'category': 'food', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd04'), 'name': 'iphone', 'price': 19.9, 'stock': 179, 'description': 'generic description 2', 'restock_level': 9, 'category': 'home', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd05'), 'name': 'android', 'price': 931.29, 'stock': 989, 'description': 'generic description 1', 'restock_level': 4, 'category': 'sports', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd06'), 'name': 'monitor', 'price': 42.82, 'stock': 8, 'description': 'generic description 2', 'restock_level': 8, 'category': 'auto', 'sale_flag': False}
+{'_id': ObjectId('5fd568d9b25a47377d8edd07'), 'name': '1080ti', 'price': 987.6, 'stock': 249, 'description': 'generic description 2', 'restock_level': 5, 'category': 'tech', 'sale_flag': False}
 __init__(self,_id=None, name=None,price=None, stock=None,description=None,restock_level=None, category=None, sale_flag=None)
 documentToProduct(self,product)
 printObj(self)
@@ -51,4 +87,5 @@ EndObject:~~~~~~~~~~~~~~
 BeginprintFromDatabase:~~~~~~~~~~~~~~
 EndprintFromDatabase:~~~~~~~~~~~~~~
 incorrect or Not Specific enough Query object :{'name': 'example', 'price': 21333.44, 'stock': 4, 'description': 'this is my dope discription', 'restock_level': 100, 'category': 'food', 'sale_flag': False}
-incorrect or Not Specific enough Query object :{'name': 'Optional', 'price': 'Optional', 'stock': 'Optional', 'description': 'Optional', 'restock_level': 'Optional', 'category': 'Optional', 'sale_flag': 'Optional', '_id': ObjectId('5fd54ea01310b53f5ec601a4')}
+{'name': 'example', 'price': 21333.44, 'stock': 4, 'description': 'this is my dope discription', 'restock_level': 100, 'category': 'food', 'sale_flag': False}
+incorrect or Not Specific enough Query object :{'name': 'Optional', 'price': 'Optional', 'stock': 'Optional', 'description': 'Optional', 'restock_level': 'Optional', 'category': 'Optional', 'sale_flag': 'Optional', '_id': ObjectId('5fd568d9b25a47377d8edd08')}

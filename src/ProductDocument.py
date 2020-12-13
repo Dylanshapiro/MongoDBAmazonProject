@@ -142,6 +142,19 @@ class Product:
         product = docs[0]
         self.updateProductObj(**product)
         return self
+    def getRandomQueriedDocumentProductFromDB(self):
+        mycol = DB.mycol
+        myfields = self.__dict__
+        try:
+            mydoc = mycol.find(myfields)
+        except TypeError as te:
+            print("issue looking up : {0}, Error Thrown : {1} ".format(self.__dict__,te))
+        docs =[]
+        for doc in mydoc:
+            docs.append(doc)
+        product = docs[random.randrange(0,len(docs))]
+        self.updateProductObj(**product)
+        return self
 
 
 class ProductTable():
@@ -163,7 +176,7 @@ class ProductTable():
         self.mycol.drop()
 
     def getRandomProductId(self):
-        return Product().getFirstQueriedDocumentProductFromDB()._id
+        return Product().getRandomQueriedDocumentProductFromDB()._id
         
 
     def createProductTable(self):
