@@ -157,6 +157,7 @@ class Order:
 
     def insertDocumentIntoDB(self):
         mycol = DB.mycol
+        print(self.__dict__)
         mycol.insert_one(self.__dict__)
 
     def getDocumentOrderFromDB(self):

@@ -99,6 +99,7 @@ class Product:
 
     def insertDocumentIntoDB(self):
         mycol = DB.mycol
+        print(self.__dict__)
         mycol.insert_one(self.__dict__)
 
     def removeCustomerDocument(self):
@@ -141,6 +142,19 @@ class Product:
         product = docs[0]
         self.updateProductObj(**product)
         return self
+    def getRandomQueriedDocumentProductFromDB(self):
+        mycol = DB.mycol
+        myfields = self.__dict__
+        try:
+            mydoc = mycol.find(myfields)
+        except TypeError as te:
+            print("issue looking up : {0}, Error Thrown : {1} ".format(self.__dict__,te))
+        docs =[]
+        for doc in mydoc:
+            docs.append(doc)
+        product = docs[random.randrange(0,len(docs))]
+        self.updateProductObj(**product)
+        return self
 
 
 class ProductTable():
@@ -148,6 +162,12 @@ class ProductTable():
     def __init__(self):
         self.mycol = DB.mycol
     
+    def productsBelowMinStockLevel(self):
+        docs = self.mycol.find({ "$where" : 'this.stock < this.restock_level' } )
+        for doc in docs:
+            print(doc)
+
+
     def printProductTable(self):     
         for product in self.mycol.find(): 
             print(product)
@@ -156,7 +176,7 @@ class ProductTable():
         self.mycol.drop()
 
     def getRandomProductId(self):
-        return Product().getFirstQueriedDocumentProductFromDB()._id
+        return Product().getRandomQueriedDocumentProductFromDB()._id
         
 
     def createProductTable(self):
