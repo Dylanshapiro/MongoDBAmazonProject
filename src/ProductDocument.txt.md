@@ -25,7 +25,7 @@ product.insertDocumentIntoDB()
 #update Product Object
 product.updateProductObj(_id="Optional",name="Optional",price="Optional", stock="Optional",description="Optional",restock_level="Optional", category="Optional", sale_flag="Optional")
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-#Query w current object, update current object, and return current object updated
+#Query with current object, update current object, and return current object updated
 #CAUTION: if Query returns multiple Documents it doesnt update current object it just returns null
 #HOW TO AVOID THIS: provide unique identifiers or _id
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#

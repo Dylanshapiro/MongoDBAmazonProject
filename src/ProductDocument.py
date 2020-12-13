@@ -99,6 +99,7 @@ class Product:
 
     def insertDocumentIntoDB(self):
         mycol = DB.mycol
+        print(self.__dict__)
         mycol.insert_one(self.__dict__)
 
     def removeCustomerDocument(self):
@@ -148,6 +149,12 @@ class ProductTable():
     def __init__(self):
         self.mycol = DB.mycol
     
+    def productsBelowMinStockLevel(self):
+        docs = self.mycol.find({ "$where" : 'this.stock < this.restock_level' } )
+        for doc in docs:
+            print(doc)
+
+
     def printProductTable(self):     
         for product in self.mycol.find(): 
             print(product)
