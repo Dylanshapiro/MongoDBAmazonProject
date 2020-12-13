@@ -19,8 +19,8 @@ pip install pymongo
 ```python
 from pymongo import MongoClient
 client = MongoClient('ip')
-mydb = client[database]
-mycol =mydb[ColumnName]
+mydb = client['database']
+mycol =mydb['ColumnName']
 ```
 ### Query, Add, Remove, and Modify Customer Information
 ```python
